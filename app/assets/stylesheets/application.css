@@ -11,3 +11,24 @@
  *= require_self
  *= require_tree .
  */
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700italic);
+body{
+	text-align: center;
+	background-color: #D3DDA6;
+}
+#service{
+	position: relative;
+	top: 0;
+	width: 100%;
+	box-shadow: 1px 2px 3px rgba(24, 28, 36, 0.7);
+	background-color: #997397;
+}
+#service h1{
+	height: 55px;
+	margin-left: 30px;
+	font-size: 40px;
+	line-height: 55px;
+	font-family: 'Playfair Display', serif;
+	text-align: left;
+	color: white;
+}

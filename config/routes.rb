@@ -1,6 +1,12 @@
 Rainforest2::Application.routes.draw do
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
+  root to: "products#index"
+
+
+  resources :products
+  
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
