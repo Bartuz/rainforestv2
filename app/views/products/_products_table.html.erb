@@ -1,0 +1,30 @@
+<table >
+	<caption>List of lal products</caption>
+	<thead>
+		<tr>
+			<th>Picture</th>
+			<th>Name</th>
+			<th>Price</th>
+			<th>Quanity</th>
+			<th>Description</th>
+			<th>Category</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @products.each do |product| %> 
+			<tr>
+				<td>image_tag(product.img_url)</td>
+				<td>product.name</td>
+				<td>product.price</td>
+				<td>product.quanity</td>
+				<td>product.description</td>
+				<td>product.category</td>
+			</tr>
+		<% end %>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="6" >Total: <%= @products.count %> <%= pluralize(@products.count,"product") %> </td>
+		</tr>
+	</tfoot>
+</table>
