@@ -16,19 +16,28 @@ body{
 	text-align: center;
 	background-color: #D3DDA6;
 }
-#service{
+a{
+	text-decoration: none;
+}
+#rainforest-header{
 	position: relative;
 	top: 0;
 	width: 100%;
 	box-shadow: 1px 2px 3px rgba(24, 28, 36, 0.7);
 	background-color: #997397;
-}
-#service h1{
 	height: 55px;
+	line-height: 55px;
+}
+#rainforest-header h1{
+	transition: color .35s ease-in-out;
+	-webkit-transition: color .35s ease-in-out; /* Safari */
 	margin-left: 30px;
 	font-size: 40px;
-	line-height: 55px;
 	font-family: 'Playfair Display', serif;
 	text-align: left;
+	color: rgb(225, 225, 225);
+	text-shadow: 2px 2px 6px #000;
+}
+#rainforest-header h1:hover{
 	color: white;
 }
