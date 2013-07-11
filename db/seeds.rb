@@ -18,6 +18,6 @@ bieber_album = "http://upload.wikimedia.org/wikipedia/en/thumb/0/01/Believe-JB-A
 		img_url: "#{bieber_album}",
 		category: ["music","books","games"].sample,
 		price: [0.1,1,20,50,32,99.43,100.3,999.43].sample,
-		quanity: Random.rand(99)
+		quantity: Random.rand(99)
 	)
 end

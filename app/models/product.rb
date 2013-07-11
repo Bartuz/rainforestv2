@@ -1,5 +1,5 @@
 class Product < ActiveRecord::Base
-  attr_accessible :category, :description, :img_url, :name, :price, :quanity, :tags
+  attr_accessible :category, :description, :img_url, :name, :price, :quantity, :tags
 
   serialize :tags
 end
